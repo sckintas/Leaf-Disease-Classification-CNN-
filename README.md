@@ -32,7 +32,7 @@ Leaf Disease Detection is a machine learning project aimed at identifying diseas
 - **Programming Language:** Python
 - **Web Framework:** Flask
 - **Deep Learning Framework:** TensorFlow/Keras
-- **Image Processing:** Pillow 
+- **Image Processing:** Pillow  
 - **Frontend:** HTML
 - **Visualization:** Matplotlib
 - **Version Control:** Git
@@ -131,7 +131,34 @@ The model achieved the following performance metrics on the test dataset:
 | Corn_(maize)__Cercospora_leaf_spot   | 0.92      | 0.93   | 0.93     | 410     |
 | Corn_(maize)__Common_rust            | 1.00      | 1.00   | 1.00     | 477     |
 | Corn_(maize)__Northern_Leaf_Blight   | 0.96      | 0.95   | 0.95     | 477     |
-| ... (truncated for brevity)          |           |        |          |         |
+| Corn_(maize)__healthy                | 0.99      | 1.00   | 0.99     | 465     |
+| Grape___Black_rot                    | 0.99      | 0.95   | 0.97     | 472     |
+| Grape___Esca_(Black_Measles)         | 0.95      | 0.99   | 0.97     | 480     |
+| Grape___Leaf_blight_(Isariopsis_Leaf_Spot) | 0.86 | 1.00   | 0.92     | 430     |
+| Grape___healthy                      | 0.97      | 0.99   | 0.98     | 423     |
+| Orange___Haunglongbing_(Citrus_greening) | 0.99  | 0.97   | 0.98     | 503     |
+| Peach___Bacterial_spot               | 0.97      | 0.96   | 0.96     | 459     |
+| Peach___healthy                      | 0.99      | 0.93   | 0.96     | 432     |
+| Pepper,_bell___Bacterial_spot        | 0.99      | 0.92   | 0.96     | 478     |
+| Pepper,_bell___healthy               | 0.79      | 0.99   | 0.88     | 497     |
+| Potato___Early_blight                | 0.83      | 1.00   | 0.91     | 485     |
+| Potato___Late_blight                 | 0.95      | 0.85   | 0.90     | 485     |
+| Potato___healthy                     | 0.97      | 0.67   | 0.80     | 456     |
+| Raspberry___healthy                  | 0.99      | 0.96   | 0.97     | 445     |
+| Soybean___healthy                    | 0.89      | 0.93   | 0.91     | 505     |
+| Squash___Powdery_mildew              | 0.98      | 0.98   | 0.98     | 434     |
+| Strawberry___Leaf_scorch             | 1.00      | 0.99   | 0.99     | 444     |
+| Strawberry___healthy                 | 0.99      | 0.98   | 0.98     | 456     |
+| Tomato___Bacterial_spot              | 0.97      | 0.91   | 0.94     | 425     |
+| Tomato___Early_blight                | 0.89      | 0.91   | 0.90     | 480     |
+| Tomato___Late_blight                 | 0.98      | 0.73   | 0.84     | 463     |
+| Tomato___Leaf_Mold                   | 1.00      | 0.90   | 0.95     | 470     |
+| Tomato___Septoria_leaf_spot          | 0.88      | 0.94   | 0.91     | 436     |
+| Tomato___Spider_mites_Two-spotted_spider_mite | 0.91 | 0.52 | 0.66     | 435     |
+| Tomato___Target_Spot                 | 0.95      | 0.51   | 0.66     | 457     |
+| Tomato___Tomato_Yellow_Leaf_Curl_Virus | 1.00   | 0.96   | 0.97     | 490     |
+| Tomato___Tomato_mosaic_virus         | 0.98      | 0.90   | 0.94     | 448     |
+| Tomato___healthy                     | 0.48      | 1.00   | 0.65     | 481     |
 
 - **Overall Accuracy:** 92.04%
 - **Macro Average:** Precision: 0.94, Recall: 0.92, F1-Score: 0.92
