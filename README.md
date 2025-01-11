@@ -81,14 +81,9 @@ Follow these steps to set up the project on your local machine:
    source venv/bin/activate  # For Windows: venv\Scripts\activate
    ```
 
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+3. Download the dataset and place it in the appropriate directory (e.g., `data/`).
 
-4. Download the dataset and place it in the appropriate directory (e.g., `data/`).
-
-5. Ensure the trained model file `leaf_model.h5` is located in the `app` directory.
+4. Ensure the trained model file `leaf_model.h5` is located in the `app` directory.
 
 ---
 
